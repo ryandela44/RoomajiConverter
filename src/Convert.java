@@ -9,7 +9,6 @@ public class Convert {
         String buffer = "";
         ArrayList<String> line = new ArrayList<>();
 
-//verfie si
         for (int i = 0; i < roomaji.size(); i++) {
             //puts the content from the roomaji into a string
             data = roomaji.get(i);
