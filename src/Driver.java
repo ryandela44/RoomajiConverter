@@ -13,7 +13,7 @@ public class Driver {
         Reader.parseHiragana(hiraganaTable);
         Reader.parseKatagana(kataganaTable);
         //converts from roomajo to hiragana/Katagana
-        Convert.convert(roomaji,kataganaTable,hiraganaTable,hiraganaKatagana);
+        Convert.convert(roomaji, kataganaTable, hiraganaTable, hiraganaKatagana);
         //create and write resul in file
         Writer.open();
         Writer.write(hiraganaKatagana);

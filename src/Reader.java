@@ -15,8 +15,9 @@ public class Reader {
         }
         sc.close();
     }
+
     //Goes through the Hiragana table and puts the content in a Hashmap to be accessed when converting
-    public static void parseHiragana(HashMap<String,String> map) throws IOException {
+    public static void parseHiragana(HashMap<String, String> map) throws IOException {
         File myfile = new File("Hiragana.txt");
 
         BufferedReader br = null;
@@ -40,8 +41,9 @@ public class Reader {
                 map.put(name, number);
         }
     }
+
     //Goes through the Katagana table and puts the content in a Hashmap to be accessed when converting
-    public static void parseKatagana(HashMap<String,String> map) throws IOException {
+    public static void parseKatagana(HashMap<String, String> map) throws IOException {
         File myfile = new File("Katagana.txt");
 
         BufferedReader br = null;
